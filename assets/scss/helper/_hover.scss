@@ -1,0 +1,58 @@
+.ac-article01-card-hover{
+
+    h5{
+        color:$nautral-500;
+    }
+}
+.ac-article01-card-hover:hover{
+
+    h5{
+        color:$accent-200;
+    }
+}
+
+
+.card-filter-hover{
+    img{
+        filter: none
+    }
+}
+.card-filter-hover:hover{
+    img{
+        filter: grayscale(40%);
+    }
+}
+
+
+.card-opacity-hover{
+    img{
+        filter: opacity(100%);
+    }
+}
+.card-opacity-hover:hover{
+    img{
+        filter: opacity(70%);
+    }
+}
+
+
+.article-card-text-hover{
+    h6,p{
+        color:$nautral-500;
+    }
+}
+.article-card-text-hover:hover{
+    h6,p{
+        color:$accent-200;
+    }
+}
+
+
+.arrow-btn-hover{
+    background-color: $nautral-white;
+    color:$nautral-400;
+}
+.arrow-btn-hover:hover{
+    background-color: $nautral-400;
+    color:$nautral-white;
+}

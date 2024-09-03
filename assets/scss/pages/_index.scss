@@ -1,0 +1,299 @@
+/*---------------------------header------------------------*/
+.header{
+    height: 621px;
+    background-image: url(/assets/images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include media-breakpoint-up(sm){
+        height: 551px;
+        background-image: url(/assets/images/banner-sm.png);
+      }
+}
+/*---------------------------header------------------------*/
+
+
+/*---------------------------article01------------------------*/
+.article01-title{
+    max-width:351px;
+}
+.article01-img-box{
+    max-width:351px;
+    height:84px;
+
+    @include media-breakpoint-up(md) { 
+        max-width:336px;
+        height:200px;
+    }
+
+    @include media-breakpoint-up(lg) { 
+        max-width:100%;
+        height:200px;
+    }
+    @include media-breakpoint-up(xl) { 
+        max-width:306px;
+        height:200px;
+    }
+    .article01-img{
+        border-radius:20px 0 20px 0;
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
+/*---------------------------article01------------------------*/
+
+
+
+/*---------------------------article02------------------------*/
+.article02-icon-set.article02-icon-set{
+    font-size: 24px;
+}
+.article02-icon-line{
+    width: 80px;
+}
+.article02-box{
+    max-width: 351px;
+    height: 557px;
+
+    @include media-breakpoint-up(md) { 
+        max-width:456px;
+        
+    }
+
+    @include media-breakpoint-up(lg) { 
+        width:296px;
+        height: 497px;
+        
+    }
+    @include media-breakpoint-up(xl) { 
+        width:356px;
+        height: 448px;
+        
+    }
+
+    @include media-breakpoint-up(xxl) { 
+        width:404px;
+        
+    }
+}
+.article02-carousel{
+    margin: 0 auto;
+    height:auto;
+}
+.article02-card-in{
+    max-width: 351px;
+
+
+    @include media-breakpoint-up(md) { 
+        max-width:456px;
+        
+    }
+    @include media-breakpoint-up(lg) { 
+        max-width:404px;
+        
+        
+    }
+}
+.article02-card-in{
+    max-width:351px;
+    height:auto;
+
+    @include media-breakpoint-up(md) { 
+        max-width:456px;
+        
+    }
+    @include media-breakpoint-up(lg) { 
+        max-width:404px;
+         
+    }
+
+}
+.card-body{
+    height: auto;
+    @include media-breakpoint-up(lg) { 
+        height: 262px;
+        
+    }
+    @include media-breakpoint-up(xl) { 
+        height: auto;
+        
+    }
+}
+.article02-card-in-img-box{
+    max-width:351px;
+    height:auto;
+
+    @include media-breakpoint-up(md) { 
+        max-width:456px;
+        
+    }
+    @include media-breakpoint-up(lg) { 
+        max-width:404px;
+        height:192px;
+    }
+    .article02-card-in-img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
+/*---------------------------article02------------------------*/
+
+/*---------------------------article03------------------------*/
+.article03-content-box{
+    width: 270px;
+    height: 377px;
+    @include media-breakpoint-up(lg) { 
+        width: 360px;
+        height: 428px;    
+    }  
+}
+.article03-title-box{
+    width: 270px;
+    height: 61px;
+    @include media-breakpoint-up(lg) { 
+        width: 360px;
+        height: 88px;    
+    }  
+}
+.article03-text-box{
+    width: 256px;
+    height: 224px;
+}
+.article03-img01-box{
+    width: 217px;
+    height: 81px;
+    bottom: 0;
+    left: 0;
+    transform: translate(-5% , 10%);
+    
+    .article03-img01-box img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+
+}
+.article03-img02-box{
+    width: 160px;
+    height: 104px;
+    bottom: 0;
+    right: 0;
+    transform: translate(30% , 10%);
+    @include media-breakpoint-up(md) { 
+        width: 300px;
+        height: 196px;
+        transform: translate(30% , 10%);
+        
+    }
+    .article03-img02-box img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+
+}
+/*---------------------------article03------------------------*/
+
+/*---------------------------article04------------------------*/
+.article04-box{
+    max-width: 351px;
+}
+.article04-aside-box{
+    height: 633px;
+}
+.article04-card-in-box{
+    max-width:316px;
+}
+.article04-card-text-box{
+    height: 88px;
+}
+.article04-card-img-box{
+    max-width:292px;
+    height:157px;
+    .article04-card-img-box-img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
+.article04-card-tag-set{
+    font-size: 12px;
+    line-height: 19.2px;
+}
+.aside-hover:hover,.aside-hover:active{
+    background-color: $accent-100;
+}
+.article04-card-title-box{
+    width: 887px;
+    height: 201px;
+}
+.article04-card-big-img-box{
+    width: 616px;
+    height: auto;
+    @include media-breakpoint-up(xxl) { 
+        width: 100%;
+        height: auto;
+    }
+}
+.border-s-25{
+    border-radius:25px 0 0 5px;
+    @include media-breakpoint-up(xxl) { 
+        border-radius:25px 0 0 25px;
+    }
+}
+.border-e-25{
+    border-radius:0 5px 25px 0;
+    @include media-breakpoint-up(xxl) { 
+        border-radius:0 25px 25px 0;
+    }
+}
+/*---------------------------article04------------------------*/
+
+
+/*---------------------------article05------------------------*/
+.article05-card{
+    width: 351px;
+    @include media-breakpoint-up(xxl) { 
+        width: 416px;
+    }
+}
+.fs-52-set{
+
+    @include media-breakpoint-up(xxl) { 
+        font-size: 52px;
+        line-height: 75px;
+    }
+}
+.article05-card-img-box-img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.article06-card-img-box{
+    max-width:306px;
+    height:236px;
+    .article06-card-img-box-img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
+.article06-card-position01-set{
+    top:0;
+    left: 0;
+    transform: translate(10% , -50%); 
+}
+.article06-card-position02-set{
+    bottom:0;
+    left: 0;
+}
+.article06-card-position03-set{
+    bottom:0;
+    right: 0;
+}
+.article06-xxl-box{
+    height: 592px;
+}
+/*---------------------------article05------------------------*/

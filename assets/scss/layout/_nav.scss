@@ -1,0 +1,66 @@
+//nav-input
+.nav-form-set{
+    width: 276px;
+    height: 52px;
+    border-radius: 25px;
+    position: relative;
+    outline: none;
+}
+
+.nav-input-set:focus + .nav-p-set{
+        color:$nautral-600;
+}
+
+.nav-input-set{
+    width: 276px;
+    height: 100%;
+    display: block;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 12px 60px 12px 100px;
+    border:1px solid $nautral-300;
+    outline: none;
+}
+
+.nav-p-set{
+    position: absolute;
+    color:$nautral-300;
+    padding-top: 16px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    top:0;
+    left:0;
+}
+
+.nav-btn-set{
+    position: absolute;
+    top:6px;
+    right:10px;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.icon-set{
+    font-size: 40px;
+    color:$accent-200;
+}
+//nav-input
+
+//nav-button
+.hover:hover{
+    background-color: $accent-300;
+}
+
+.btn.hover:first-child:active{
+    background-color: $accent-300;
+}
+
+.btn:disabled{
+    background-color:$nautral-200;
+}
+//nav-button
