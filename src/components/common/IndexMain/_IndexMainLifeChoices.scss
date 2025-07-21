@@ -1,0 +1,103 @@
+.IndexMainLifeChoices{
+    padding: 80px 0;
+    @media (max-width: 992px) { 
+        padding: 48px 0;
+    }
+    .IndexMainLifeChoices-content{
+
+        .IndexMainLifeChoices-title{
+            font-family: 'Noto Serif TC', serif;
+            font-weight: 900;
+            font-size: 32px;
+            color: #343a40;
+            @media (max-width: 992px) { 
+                font-size: 24px;
+            }
+        }
+
+        .IndexMainLifeChoices-item-box{
+            margin-top: 40px;
+            @media (max-width: 992px) { 
+                margin-top: 24px;
+            }
+            .item-title{
+
+                font-family: 'Noto Serif TC', serif;
+                font-weight: 900;
+                font-size: 52px;
+                line-height: 100%;
+                color: #6e6b67;
+                @media (max-width: 992px) { 
+                    font-size: 40px;
+                }
+            }
+            .item-img-box{
+                margin-top: 36px;
+                width: 100%;
+                border: 4px;
+                overflow: hidden;
+                @media (max-width: 992px) { 
+                    margin-top: 24px;
+                }
+                .item-img{
+                    border-radius: 12px;
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                    aspect-ratio: 416 / 192;
+                }
+            }
+            .texts-box{
+                margin-top: 36px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                @media (max-width: 992px) { 
+                    margin-top: 24px;
+                }
+                .text{
+                    text-align: start;
+                    border: none;
+                    background-color: transparent;
+                    padding: 0px;
+                    font-family: 'Noto Serif TC', serif;
+                    font-weight: 900;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    color: #343a40;
+                    margin-bottom: 0px;
+                    @media (max-width: 992px) { 
+                        font-size: 16px;
+                    }  
+                }
+            }
+            .item-btn{
+                margin-top: 36px;
+                width: 100%;
+                font-family: 'Newsreader', serif;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 1.2;
+                color: #569573;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+                border: none;
+                background-color: transparent;
+                padding: 8px 0;
+                @media (max-width: 992px) { 
+                    margin-top: 24px;
+                    font-size: 16px;
+                }
+                .item-icon{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #569573;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}

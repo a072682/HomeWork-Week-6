@@ -1,0 +1,236 @@
+.subscription{
+
+    .subscription-content{
+
+        .subscription-breadcrumb{
+
+            .subscription-item-breadcrumb-box{
+                padding:12px 0;
+                margin-bottom: 0px;
+                .subscription-breadcrumb-item{
+                    &.active{
+                        .link01,.link02,.link03{
+                            color: #569573;
+                        }
+                    }
+                    .link01,.link02{
+                        font-weight: 900;
+                        font-size: 16px;
+                        line-height: 1.5;
+                        font-family: 'Noto Serif TC', serif;
+                        color: #4b4b4b;
+                        text-decoration:none;
+                    }
+                }
+            }
+        }
+        .subscription-title{
+            margin-top: 20px;
+            @media (max-width: 992px) { 
+                    margin-top: 8px;
+                }
+            .title{
+                font-family: 'Noto Serif TC', serif;
+                font-weight: 900;
+                font-size: 40px;
+                color:#343a40;
+                @media (max-width: 992px) { 
+                    font-size: 28px;
+                }
+            }
+        }
+        .IndexMainAttention-tab-box{
+            width: 100%;
+            @media (max-width: 992px) { 
+                     margin-top: 40px;
+                }
+            .class-tabs{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 24px;
+                @media (max-width: 992px) { 
+                    gap: 0px;
+                }
+                .class-tabs-item{
+                    width: calc(50% - 12px);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    @media (max-width: 992px) { 
+                        width: 50%;
+                    }
+                    .class-tab{
+                        width: 100%;
+                        padding: 12px 0;
+                        font-family: 'Noto Serif TC', serif;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 1.2;
+                        color: #6c757d;
+                        text-decoration:none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: transparent;
+                        &.active{
+                            background-color: #569573;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+        .IndexMainAttention-item-box{
+            margin-top: 40px;
+            @media (max-width: 992px) { 
+                     margin-top: 24px;
+                }
+            .contents-box{
+                .cards-box{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 24px;
+                    @media (max-width: 992px) { 
+                        flex-direction: column;
+                    }
+                    .card-box{
+                        width: 100%;
+                        min-height: 696px;
+                        border:1px solid transparent;
+                        border-radius: 12px;
+                        padding: 40px 24px;
+                        display: flex;
+                        flex-direction: column;
+                        @media (max-width: 1200px) { 
+                            padding: 24px;
+                            min-height: 611px;
+                        }
+                        &.active{
+                            border:1px solid #569573;
+                            .card-list-box{
+                                .list-item{
+                                    .list-icon{
+                                        background-color: #343a40;
+                                    }
+                                }
+                            }
+                            .list-btn{
+                                background-color: #569573;
+                                color: #ffffff;
+                                .list-icon{
+                                    color: #ffffff;
+                                }
+                            }
+                            
+                        }
+                        .card-title-box{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 16px;
+                            .title{
+                                font-family: 'Noto Serif TC', serif;
+                                font-weight: 900;
+                                font-size: 20px;
+                                color:#6e6b67;
+                                margin-bottom: 0px;
+                                @media (max-width: 1200px) { 
+                                    font-size: 16px;
+                                }
+                            }
+                            .text01{
+                                font-family: 'Noto Serif TC', serif;
+                                font-weight: 700;
+                                font-size: 40px;
+                                line-height: 1.2;
+                                color:#569573;
+                                margin-bottom: 0px;
+                                @media (max-width: 1200px) { 
+                                    font-size: 32px;
+                                }
+                                .text02{
+                                    font-family: 'Noto Serif TC', serif;
+                                    font-weight: 900;
+                                    font-size: 24px;
+                                    line-height: 1.2;
+                                    color:#adb5bd;
+                                    margin-bottom: 0px;
+                                    @media (max-width: 1200px) { 
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                            .text03{
+                                font-family: 'Noto Serif TC', serif;
+                                font-weight:700;
+                                font-size: 22px;
+                                line-height: 1.2;
+                                color:#adb5bd;
+                                margin-bottom: 0px;
+                                @media (max-width: 1200px) { 
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                        .card-list-box{
+                            margin-top: 60px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 24px;
+                            @media (max-width: 1200px) { 
+                                margin-top: 36px;
+                            }
+                            .list-item{
+                                display: flex;
+                                justify-content: start;
+                                align-items: center;
+                                gap: 8px;
+                                .list-icon{
+                                    color: #ffffff;
+                                    background-color: #6c757d;
+                                    border-radius: 4px;
+                                }
+                                .list-text{
+                                    font-family: 'Noto Serif TC', serif;
+                                    font-weight:700;
+                                    font-size: 20px;
+                                    line-height: 1.2;
+                                    color:#343a40;
+                                    margin-bottom: 0px;
+                                }
+                            }
+                        }
+
+                        .list-btn{
+                            margin-top: auto;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 12px;
+                            border: none;
+                            width: 100%;
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight:900;
+                            font-size: 20px;
+                            line-height: 1.5;
+                            color: #6c757d;
+                            background-color: transparent;
+                            padding: 16px 0;
+                            border-radius: 100px;
+                            .list-icon{
+                                color: #6c757d;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

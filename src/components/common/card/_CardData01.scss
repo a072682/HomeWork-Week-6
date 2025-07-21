@@ -1,0 +1,82 @@
+        .card01{
+            width: 100%;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #343a40;
+            border-radius: 12px;
+            overflow: hidden;
+            background-color: transparent;
+            box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+            .img-box{
+                width: 100%;
+
+                .item-img{
+                    border-radius: 4px;
+                    width: 100%;
+                    aspect-ratio: 325 / 200;
+                    object-fit: cover;
+                }
+            }
+
+            .item-text-box{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                padding: 0px 12px;
+                .item-title{
+                    font-family: 'Noto Serif TC', serif;
+                    font-weight: 900;
+                    font-size: 20px;
+                    color: #343a40;
+                }
+
+                .item-content{
+                    font-family: 'Noto Serif TC', serif;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    color: #6c757d;
+                }
+            }
+            
+            .item-btn-box{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 6px 12px;
+                .item-btn{
+                    border: none;
+                    background-color: transparent;
+                    font-family: 'Newsreader', serif;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    color: #569573;
+                }
+
+                .item-tip{
+                    font-family: 'Noto Serif TC', serif;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 1.2;
+                    color: #6e6b67;
+                    padding: 4px 8px;
+                    background-color: #e8e3da;
+                    border-radius: 4px;
+                }
+            }
+            
+        }
+
+.card-text{
+    /* width: 416px;
+    height: 48px; */
+
+    display: -webkit-box; /*-webkit-box + -webkit-box-orient 搭配 line-clamp 使用，讓文字可被裁切*/
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* 限制文字最多顯示幾行（這裡設為 2） */
+    
+
+    overflow: hidden; /*隱藏超出範圍的文字*/
+    text-overflow: ellipsis; /*加上「...」效果*/
+    /*line-height: 1.5;*/ /* 48px 高度 ÷ 2 行 = 24px 單行高度 */
+}

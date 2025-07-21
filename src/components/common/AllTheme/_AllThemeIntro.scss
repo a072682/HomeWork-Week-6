@@ -1,0 +1,57 @@
+.AllThemeIntro{
+    width: 100%;
+    height: fit-content;
+
+    .AllThemeIntro-breadcrumb{
+        margin-bottom: 0px;
+        .AllThemeIntro-breadcrumb-item{
+            &.active{
+                .link01,.link02{
+                    color: #569573;
+                }
+            }
+            .link01,.link02{
+                font-weight: 900;
+                font-size: 16px;
+                line-height: 1.5;
+                font-family: 'Noto Serif TC', serif;
+                color: #4b4b4b;
+                text-decoration:none;
+            }
+        }
+    }
+
+    .Intro-title{
+        margin-top: 36px;
+        h3{
+            font-weight: 900;
+            font-size: 32px;
+            font-family: 'Noto Serif TC', serif;
+            margin-bottom: 0px;
+        }
+    }
+
+    .Intro-item{
+        position: relative;
+        padding: 24px 0 40px 0;
+        width: 100%;
+
+        .Intro-btn{
+            font-weight:400;
+            font-size: 16px;
+            line-height: 1.5;
+            font-family: 'Poppins', sans-serif;//英文字體
+            color:#4b4b4b;
+            background-color: #ffffff;
+            border: 1px solid #ececec;
+            border-radius: 12px;
+            padding:12px 16px;
+
+            &.active{
+                color:#ffffff;
+                background-color: #569573;
+            }
+        }
+    }
+}
+

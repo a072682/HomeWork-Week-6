@@ -1,0 +1,109 @@
+.IndexMainAdvertise{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+    background-color: #fffbe5;
+    @media (max-width: 992px) { 
+        padding: 48px 0;
+    }
+    .Advertise-img01{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        @media (max-width: 992px) { 
+            display: none;
+        }
+    }
+    .Advertise-img02{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        @media (max-width: 992px) { 
+            display: none;
+        }
+    }
+    .Advertise-img03{
+        display: none;
+        position: absolute;
+        bottom: 0;
+        right: -50px;
+        @media (max-width: 992px) { 
+            display: block;
+        }
+    }
+    .IndexMainAdvertise-content{
+        
+        .Advertise-title01{
+            text-align: center;
+            font-family: 'Noto Serif TC', serif;
+            font-weight: 900;
+            font-size: 24px;
+            color: #6e6b67;
+            @media (max-width: 992px) { 
+                font-size: 16px;
+                color: #569573;
+            }
+        }
+        .Advertise-title02{
+            text-align: center;
+            font-family: 'Noto Serif TC', serif;
+            font-weight: 900;
+            font-size: 32px;
+            color: #343a40;
+            @media (max-width: 992px) { 
+                font-size: 24px;
+            }
+        }
+        .center-set{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .Advertise-item-box{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                gap: 16px;
+                .Advertise-item{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 12px;
+                    .item-icon{
+                        color: #6c757d;
+                    }
+                    .item-text{
+                        font-family: 'Noto Serif TC', serif;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 1.5;
+                        color: #6c757d;
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+        .Advertise-btn{
+            font-family: 'Noto Serif TC', serif;
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 1.2;
+            color: #ffffff;
+            padding:16px 24px;
+            border: none;
+            border-radius: 100px;
+            background-color: #569573;
+            display: block;
+            margin: 0 auto;
+            @media (max-width: 992px) { 
+                font-size: 16px;
+                padding:12px 20px;
+            }
+        }
+        
+        
+    }
+}

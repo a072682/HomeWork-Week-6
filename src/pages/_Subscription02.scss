@@ -1,0 +1,355 @@
+.subscription02{
+
+    .subscription02-content{
+
+        .subscription-breadcrumb{
+
+            .subscription-item-breadcrumb-box{
+                padding:12px 0;
+                .subscription-breadcrumb-item{
+                    &.active{
+                        .link01,.link02,.link03{
+                            color: #569573;
+                        }
+                    }
+                    .link01,.link02{
+                        font-weight: 900;
+                        font-size: 16px;
+                        line-height: 1.5;
+                        font-family: 'Noto Serif TC', serif;
+                        color: #4b4b4b;
+                        text-decoration:none;
+                    }
+                }
+            }
+        }
+        .subscription02-title{
+            margin-top: 20px;
+            .title{
+                font-family: 'Noto Serif TC', serif;
+                font-weight: 900;
+                font-size: 40px;
+                color:#343a40;
+            }
+        }
+        .subscription02-content-box{
+            .subscription02-content-left-box{
+                
+                .form-user{
+                    margin-top: 48px;
+                    width: 100%;
+                    border: 1px solid #e8e3da;
+                    padding: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+                    .user-title-box{
+                        .user-title{
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight: 900;
+                            font-size: 24px;
+                            color:#000000;
+                        }
+                    }
+                    .bill-input-container{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: start;
+                        gap: 12px;
+                        .name-label,.password-label,.email-label{
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 1.2;
+                            color:#343a40;
+                        }
+                        .name-input,.password-input,.email-input{
+                            width: 100%;
+                            padding: 12px 16px;
+                            font-weight: 400;
+                            font-family: 'Noto Serif TC', serif;
+                            font-size: 16px;
+                            border-radius: 12px;
+                            border: 1px solid #ececec;
+                            box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.2);
+                        }
+                    }
+                    .form-check{
+                        display: flex;
+                        justify-content: start;
+                        align-items: center;
+                        padding: 0px;
+                        .form-check-input{
+                            width: 16px;
+                            height: 16px;
+                            margin: 8px;
+                        }
+                        .form-check-label{
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 1.5;
+                            color:#343a40;
+                        }
+                    }
+                }
+
+                .form-pay{
+                    margin-top: 24px;
+                    padding: 40px;
+                    .pay-title-box{
+                        .pay-title{
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight: 700;
+                            font-size: 24px;
+                            color:#000000;
+                        }
+                    }
+                    .pay-radio-box{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+                        margin-top: 40px;
+                        .title{
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight: 700;
+                            font-size: 16px;
+                            color:#343a40;
+                        }
+                        .pay-radio-box02{
+                            display: flex;
+                            justify-content: start;
+                            align-items: center;
+                            
+                            .radio-input{
+                                width: 16px;
+                                height: 16px;
+                                margin: 8px;
+                            }
+                            .radio-label{
+                                font-family: 'Noto Serif TC', serif;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 1.5;
+                                color:#343a40;
+                            }
+                        }
+                    }
+                    .pay-input-box{
+                        width: 100%;
+                        margin-top: 40px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: start;
+                        gap: 12px;
+                        .paylabel{
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 1.2;
+                            color:#343a40;
+                        }
+                        .payinput{
+                            width: 100%;
+                            padding: 12px 16px;
+                            font-weight: 400;
+                            font-family: 'Noto Serif TC', serif;
+                            font-size: 16px;
+                            border-radius: 12px;
+                            border: 1px solid #ececec;
+                            box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.2);
+                        }
+                    }
+                    .pay-card-input-box{
+                        display: flex;
+                        gap: 24px;
+                    }
+                    .form-check{
+                        margin-top: 26px;
+                        display: flex;
+                        justify-content: start;
+                        align-items: center;
+                        padding: 0px;
+                        .form-check-input{
+                            width: 16px;
+                            height: 16px;
+                            margin: 8px;
+                        }
+                        .form-check-label{
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 1.5;
+                            color:#343a40;
+                        }
+                    }
+                }
+            }
+            .subscription02-content-right-box{
+                .detail-container{
+                    border: 1px solid #569573;
+                    border-radius: 12px;
+                    padding: 40px;
+                    .dk-title-box{
+                        .dk-title{
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight: 900;
+                            font-size: 24px;
+                            line-height: 1.2;
+                            color: #569573;
+                            margin-bottom: 0px;
+                        }
+                    }
+                    .detail-box{
+                        margin-top: 40px;
+                        padding: 24px 0;
+                        .detail-box02{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            .detail-text,.detail-price{
+                                font-family: 'Noto Serif TC', serif;
+                                font-weight: 900;
+                                font-size: 20px;
+                                line-height: 1.2;
+                                color: #09090b;
+                                margin-bottom: 0px;
+                            }
+                        }
+                        .detail-type{
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 1.2;
+                            color: #a1a1aa;
+                            margin-bottom: 0px;
+                        }
+                    }
+                    .discount-input-box{
+                        margin-top: 40px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: start;
+                        gap: 12px;
+                        .discountlabel{
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 1.2;
+                            color:#343a40;
+                        }
+                        .input-box{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            width: 100%;
+                            gap: 24px;
+                            .discountinput{
+                                width: 100%;
+                                padding: 12px 16px;
+                                font-weight: 400;
+                                font-family: 'Noto Serif TC', serif;
+                                font-size: 16px;
+                                border-radius: 12px;
+                                border: 1px solid #ececec;
+                                box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.2);
+                            }
+                            .input-btn{
+                                min-width: 75px;
+                                font-family: 'Noto Serif TC', serif;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 1.2;
+                                color:#6e6b67;
+                                padding: 12px 20px;
+                                border: none;
+                                background-color: transparent;
+                            }
+                        }
+                        
+                    }
+                    .total01{
+                        margin-top: 40px;
+                        padding: 24px 0;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 12px;
+                        .total-box01,.total-box02{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            .total-text{
+                                font-family: 'Noto Serif TC', serif;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 1.2;
+                                color:#52525b;
+                                margin-bottom: 0px;
+                            }
+                            .total-price{
+                                font-family: 'Noto Serif TC', serif;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 1.2;
+                                color:#52525b;
+                                margin-bottom: 0px;
+                            }
+                        }
+                    }
+                    .total02{
+                        margin-top: 40px;
+                        .total02-box{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            .total-text{
+                                font-family: 'Noto Serif TC', serif;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 1.2;
+                                color:#52525b;
+                                margin-bottom: 0px;
+                            }
+                            .total-price{
+                                font-family: 'Noto Serif TC', serif;
+                                font-weight: 700;
+                                font-size: 28px;
+                                line-height: 1.2;
+                                color:#09090b;
+                                margin-bottom: 0px;
+                            }
+                        }
+                    }
+                    .detail-btn-box{
+                        margin-top: 40px;
+                        .detail-btn{
+                            margin-top: auto;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 12px;
+                            border: none;
+                            width: 100%;
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight:900;
+                            font-size: 20px;
+                            line-height: 1.5;
+                            color: #ffffff;
+                            background-color: #569573;
+                            padding: 16px 0;
+                            border-radius: 100px;
+                            .detail-btn-icon{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}

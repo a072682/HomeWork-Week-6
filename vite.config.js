@@ -1,51 +1,17 @@
 import { defineConfig } from 'vite';
-import { ViteEjsPlugin } from 'vite-plugin-ejs';
-import { fileURLToPath } from 'node:url';
-import path from 'node:path';
-import { glob } from 'glob';
-
-import liveReload from 'vite-plugin-live-reload';
-
-function moveOutputPlugin() {
-  return {
-    name: 'move-output',
-    enforce: 'post',
-    apply: 'build',
-    async generateBundle(options, bundle) {
-      for (const fileName in bundle) {
-        if (fileName.startsWith('pages/')) {
-          const newFileName = fileName.slice('pages/'.length);
-          bundle[fileName].fileName = newFileName;
-        }
-      }
-    },
-  };
-}
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  // base 的寫法：
-  // base: '/Repository 的名稱/'
-  base: '/HomeWork-Week-6/',
-  plugins: [
-    liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
-    ViteEjsPlugin(),
-    moveOutputPlugin(),
-  ],
+  base: process.env.NODE_ENV === 'production' ? '/HomeWork-Week-6/' : '/',
+  plugins: [react()],
   server: {
-    // 啟動 server 時預設開啟的頁面
-    open: 'pages/index.html',
+    open: '/',      // 啟動後自動開啟首頁
+    port: 5173,     // 可依需要改為其他 port
   },
   build: {
-    rollupOptions: {
-      input: Object.fromEntries(
-        glob
-          .sync('pages/**/*.html')
-          .map((file) => [
-            path.relative('pages', file.slice(0, file.length - path.extname(file).length)),
-            fileURLToPath(new URL(file, import.meta.url)),
-          ])
-      ),
-    },
-    outDir: 'dist',
+    outDir: 'dist', // 打包輸出資料夾
   },
 });
+
+
+

@@ -1,0 +1,120 @@
+.subscription03{
+    height: calc(100vh - 128px - 72px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 992px) { 
+        height: calc(100vh - 64px - 72px);
+    }
+    .subscription03-content{
+
+        .subscription03-title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            .title-img{
+                width: 48px;
+                height: 48px;
+                object-fit: cover;
+            }
+            .title{
+                font-family: 'Noto Serif TC', serif;
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 1.2;
+                color:#569573;
+            }
+        }
+        .subscription03-content-box{
+            padding: 40px;
+            .title-box{
+                .title{
+                    font-family: 'Noto Serif TC', serif;
+                    font-weight: 900;
+                    font-size: 24px;
+                    line-height: 1.2;
+                    color:#09090b;
+                }
+            }
+            .detail-box{
+                margin-top: 40px;
+                padding: 24px 0;
+                .detail-box02{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .detail-text,.detail-price{
+                        font-family: 'Noto Serif TC', serif;
+                        font-weight: 900;
+                        font-size: 20px;
+                        line-height: 1.2;
+                        color: #09090b;
+                        margin-bottom: 0px;
+                    }
+                }
+                .detail-type{
+                    font-family: 'Noto Serif TC', serif;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 1.2;
+                    color: #a1a1aa;
+                    margin-bottom: 0px;
+                }
+            }
+            .total01{
+                margin-top: 40px;
+                padding: 24px 0;
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                .total-box01,.total-box02{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .total-text{
+                        font-family: 'Noto Serif TC', serif;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 1.2;
+                        color:#52525b;
+                        margin-bottom: 0px;
+                    }
+                    .total-price{
+                        font-family: 'Noto Serif TC', serif;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 1.2;
+                        color:#52525b;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+            .detail-btn-box{
+                margin-top: 40px;
+                .detail-btn{
+                    margin-top: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 12px;
+                    border: none;
+                    width: 100%;
+                    font-family: 'Noto Serif TC', serif;
+                    font-weight:900;
+                    font-size: 20px;
+                    line-height: 1.5;
+                    color: #ffffff;
+                    background-color: #569573;
+                    padding: 16px 0;
+                    border-radius: 100px;
+                    .detail-btn-icon{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                } 
+            }
+        }
+    }
+}

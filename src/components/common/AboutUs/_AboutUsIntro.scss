@@ -1,0 +1,27 @@
+.AboutUsIntro{
+    .img{
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        display: none;
+        @media (max-width: 576px) { 
+            display: block;
+        }
+    }
+    .AboutUsIntro-bg{
+        display: block;
+        @media (max-width: 576px) { 
+            display: none;
+        }
+        .Intro-img-box{
+            width: 100%;
+            aspect-ratio: 1296 / 454;
+            .Intro-img{
+                border-radius: 12px;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

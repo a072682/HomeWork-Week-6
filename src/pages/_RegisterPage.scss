@@ -1,0 +1,135 @@
+.registerPage{
+    width: 100%;
+    height: calc(100vh - 124px - 72px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 992px) { 
+        height: fit-content;
+    }
+    .registerPage-content{
+        width: 100%;
+        padding: 40px;
+        border: 1px solid #e8e3da;
+        border-radius: 12px;
+        @media (max-width: 992px) { 
+            padding: 24px 12px;
+        }
+        .title{
+            font-family: 'Noto Serif TC', serif;
+            font-weight: 900;
+            font-size: 24px;
+            color: #569573;
+        }
+        .form-box{
+
+            .account-box,.password-box,.email-box{
+
+                label{
+                    font-family: 'Noto Serif TC', serif;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 1.2;
+                    color: #343a40;
+                }
+
+                input{
+                    width: 100%;
+                    font-family: 'Noto Serif TC', serif;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    font-weight: 600;
+                    padding: 12px 16px;
+                    border: none;
+                }
+            }
+
+            .submit-btn{
+                width: 100%;
+                background-color: #569573;
+                border-radius: 100px;
+                font-family: 'Noto Serif TC', serif;
+                font-size: 16px;
+                line-height: 1.2;
+                color: #ffffff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 12px 0px;
+                border: none;
+                gap: 12px;
+                .submit-btn-icon{
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            
+        }
+
+        .registerPage-tip{
+            width: 100%;
+            font-family: 'Noto Serif TC', serif;
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #adb5bd;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            &::before,
+            &::after {
+                content: "";
+                flex: 1;
+                height: 1px;
+                background-color: #adb5bd;
+            }
+        }
+
+        .Loginitem{
+            padding: 12px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            background-color: #f8f9fa;
+            .Loginitem-text{
+                font-family: 'Noto Serif TC', serif;
+                font-size: 16px;
+                line-height: 1.2;
+                font-weight: 700;
+                color: #52525b;
+            }
+            .google-item-img,.fb-item-img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .registerPage-tip02{
+            width: 100%;
+            font-family: 'Noto Serif TC', serif;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.5;
+            color: #212121;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            .registerPage-tip-link{
+                font-family: 'Noto Serif TC', serif;
+                font-size: 16px;
+                line-height: 1.5;
+                color: #569573;
+                text-decoration: none;
+                border: none;
+                background-color: transparent;
+            }
+        }
+    }
+}

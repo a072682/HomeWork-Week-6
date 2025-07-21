@@ -1,0 +1,140 @@
+/* 背景遮罩 */
+.offcanvas-backdrop.offcanvas-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1040;
+}
+
+/* 左側滑出面板 */
+.offcanvas-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 3px 0 12px rgba(0, 0, 0, 0.2);
+    z-index: 1050;
+    animation: slideIn 0.3s ease;
+
+    .offcanvas-box{
+        padding: 8px 12px;
+        display: flex;
+        flex-direction: column;
+        
+        .offcanvas-header{
+            width: 100%;
+            .close-btn{
+                margin-left: auto;
+                border: none;
+                background-color: transparent;
+                width: 44px;
+                height: 44px;
+                .close-icon{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        .offcanvas-body{
+            display:flex;
+            flex-direction: column;
+            margin-top: 24px;
+            gap: 24px;
+            .search-bar-mb-box{
+                position: relative;
+                .form-control-mb{
+                    width: 100%;
+                    height: 48px;
+                    border: 1px solid #dee2e6;
+                    border-radius: 100px;
+                    background-color: #ffffff;
+                    padding: 8px 44px 8px 20px;
+                }
+                .search-mb-btn{
+                    position: absolute;
+                    width: 24px;
+                    height: 24px;
+                    top: 24px;
+                    right:0px;
+                    transform: translate(-50%,-50%);
+                    z-index: 10;
+                    border: none;
+                    background-color: transparent;
+                    padding: 0px;
+                    .search-mb-icon{
+                        color: #569573;
+                    }
+                }
+                
+            }
+            .link-item-box-mb{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 24px;
+                .offcanvas-mb-btn{
+                    text-decoration:none;
+                    font-family: 'Noto Sans TC', sans-serif;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 1.2;
+                    padding: 12px;
+                    border: none;
+                    background-color: transparent;
+                    color: #343a40;
+                }
+            }
+        }
+
+        .offcanvas-mb-bottom{
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .login-mb-btn{
+                width: 100%;
+                border: none;
+                text-align: center;
+                font-family: 'Noto Sans TC', sans-serif;
+                padding: 16px 24px;
+                border-radius: 100px;
+                background-color: #569573;
+                color: #ffffff;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .userImg-mb-box{
+                    width: 44px;
+                    height: 44px;
+                    margin-right: 12px;
+                    .userImg{
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                }
+                .userText{
+                    font-family: 'Noto Serif TC', serif;
+                    font-weight: 900;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+/* 動畫 */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

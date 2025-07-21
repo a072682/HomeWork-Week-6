@@ -1,0 +1,285 @@
+.IndexMainTodayChoices{
+    background-color: #fffbe5;
+    padding: 80px 0;
+    @media (max-width: 992px) { 
+        padding: 48px 0;
+    }
+    .IndexMainTodayChoices-content{
+        height: 100%;
+        .IndexMainTodayChoices-left-content{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            .position-box{
+
+                .IndexMainTodayChoices-title-box{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+                    gap:16px;
+
+                    
+                    .IndexMainTodayChoices-title01{
+                        font-family: 'Noto Serif TC', serif;
+                        font-weight: 900;
+                        font-size: 20px;
+                        line-height: 1.2;
+                        color: #6c757d;
+                    }
+                    .IndexMainTodayChoices-title02{
+                        font-family: 'Noto Serif TC', serif;
+                        font-weight: 900;
+                        font-size: 32px;
+                        line-height: 1.2;
+                        color: #343a40;
+                    }
+                }
+                .TodayChoices-btn{
+                    position: relative;
+                    margin-top: 36px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #569573;
+                    border-radius: 100px;
+                    padding: 16px 24px;
+                    color: #ffffff;
+                    gap:12px;
+                    border: none;
+                    .btn-icon{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 24px;
+                        color: #ffffff;
+                    }
+                }    
+            }
+
+            
+        }
+
+        .IndexMainTodayChoices-right-content{
+            
+            .content-left,.content-right{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                margin-top: 80px;
+                .content-item{
+                    width: 100%;
+                    height: 236px;
+                    position: relative;
+                    border: none;
+                    .img-box{
+                        width: 100%;
+                        height: 236px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 5;
+                        border-radius: 25px;
+                        overflow: hidden;
+                        .item-img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    .item-tab-content{
+                        position: absolute;
+                        top: 0;
+                        left: 16px;
+                        transform: translateY(-50%);
+                        z-index: 10;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 8px;
+                        background-color: #ffffff;
+                        font-family: 'Noto Serif TC', serif;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 1.2;
+                        color: #569573;
+                        padding: 8px 12px;
+                        border-radius: 4px;
+                        margin-bottom: 0px;
+                        .tab-icon{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #569573;
+                        }
+                    }
+                    .item-content-box{
+                        width: 100%;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        z-index: 10;
+                        padding: 12px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .item-text-content{
+                            font-family: 'Noto Serif TC', serif;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 1.2;
+                            margin-bottom: 0px;
+                            color: #ffffff;
+                        }
+                        .text-icon{
+                            color: #ffffff;
+                        }
+                    }
+                    
+                    
+                }
+            } 
+            .content-right{
+                margin-top: 0px;
+            }           
+        }
+
+        .IndexMainTodayChoices-item-mb-box{
+            
+            .TodayChoices-top-content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .IndexMainTodayChoices-title-sm-box{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    .IndexMainTodayChoices-sm-title01{
+                        font-family: 'Noto Serif TC', serif;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #6c757d;
+                        text-align: center;
+                        margin-bottom: 0px;
+                    }
+                    .IndexMainTodayChoices-sm-title02{
+                        margin-top: 8px;
+                        font-family: 'Newsreader', serif;
+                        font-weight: 700;
+                        font-size: 24px;
+                        color: #343a40;
+                        text-align: center;
+                        margin-bottom: 0px;
+                    }
+                    .IndexMainTodayChoices-sm-title03{
+                        font-family: 'Noto Serif TC', serif;
+                        font-weight: 700;
+                        font-size: 24px;
+                        color: #343a40;
+                        text-align: center;
+                        margin-bottom: 0px;
+                    }
+                }
+                .content-sm-btn{
+                    margin-top: 36px;
+                    font-family: 'Noto Serif TC', serif;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 1.2;
+                    color: #ffffff;
+                    padding:12px 20px;
+                    border-radius: 100px;
+                    background-color: #569573;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 12px;
+                    border: none;
+                    .sm-btn-icon{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #ffffff;
+                    }
+                }
+            }
+            .content-sm-item{
+                margin-top: 66px;
+                width: 100%;
+                height: 236px;
+                position: relative;
+                border: none;
+                .img-box{
+                    width: 100%;
+                    height: 236px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 5;
+                    border-radius: 12px;
+                    overflow: hidden;
+                    .item-img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .item-tab-content{
+                    position: absolute;
+                    top: 0;
+                    left: 16px;
+                    transform: translateY(-50%);
+                    z-index: 10;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    background-color: #ffffff;
+                    font-family: 'Noto Serif TC', serif;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 1.2;
+                    color: #569573;
+                    padding: 8px 12px;
+                    border-radius: 4px;
+                    margin-bottom: 0px;
+                    .tab-icon{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #569573;
+                    }
+                }
+                .item-content-box{
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 10;
+                    padding: 12px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .item-text-content{
+                        font-family: 'Noto Serif TC', serif;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 1.2;
+                        margin-bottom: 0px;
+                        color: #ffffff;
+                    }
+                    .text-icon{
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+}
