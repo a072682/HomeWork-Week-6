@@ -20,13 +20,21 @@ function Subscription (){
     //
 
     //先還原currentUserData再抓取
+
+    const account = useSelector((state) => state.auth.account);
+    const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
     useEffect(() => {
-        const account = localStorage.getItem('fakeAccount');
-        const isLoggedIn = localStorage.getItem('fakeLogin') === 'true';
         if (isLoggedIn && account) {
-        dispatch(loadUserData()); // 還原 currentUserData
+            dispatch(loadUserData()); // 還原 currentUserData
+            console.log("測試");
         }
     }, []);
+
+    useEffect(() => {
+        if(!isLoggedIn){
+            navigate("/");
+        }
+    }, [isLoggedIn]);
 
     //使用者資料
     const userData = useSelector((state) => state.auth.currentUserData);

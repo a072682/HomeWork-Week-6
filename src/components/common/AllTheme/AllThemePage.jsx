@@ -106,10 +106,6 @@ function AllThemePage ({allThemeData,userData,id_first,tabData,searchData}){
                                         </>
                                     )
                                 }
-
-
-
-
                             </div>
                         </div>
                     </div>
