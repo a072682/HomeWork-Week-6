@@ -7,7 +7,7 @@ function CardData01({item,handleCardGoTo}) {
             <div className="card01">
                 <div className='img-box'>
                     <picture>
-                        <source srcSet={item.imgSm} media="(max-width: 991.98px)" />
+                        <source srcSet={item.img} media="(max-width: 991.98px)" />
                         <img className="item-img" src={item.img} alt="" />
                     </picture>
                 </div>

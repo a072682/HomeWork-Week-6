@@ -33,7 +33,7 @@ function Index (){
 
     useEffect(()=>{
         console.log("全部資料:",allItemData);
-        setFeaturedArticlesData(handleFeaturedArticlesData(allItemData,5));
+        setFeaturedArticlesData(handleFeaturedArticlesData(allItemData,6));
         setIndexMainTodayChoices(handleIndexMainTodayChoicesData(allItemData));
     },[allItemData]);
 
