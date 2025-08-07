@@ -69,6 +69,7 @@ function Header() {
         if (result.length === 0) {
             setSearchIn("");
             console.log("找不到相關課程");
+            navigate(`/AllTheme`);
             return;
         }
         if (result.length >= 1) {

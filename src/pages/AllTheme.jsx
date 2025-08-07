@@ -58,7 +58,7 @@ function AllTheme (){
         // console.log("取得的id:",id_first);
         // console.log("所有資料:",allItemData);
         // console.log("取得的tab:",tabData);
-        // console.log("取得的search:",searchData);
+        console.log("取得的search:",searchData);
         setAllThemeData(handleAllThemeData(allItemData));
     },[tabData,searchData]);
 
